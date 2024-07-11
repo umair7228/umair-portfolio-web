@@ -684,9 +684,10 @@ header {
 /* =================================================================*/
 /* Contact Section */
 .contact {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  text-align: center;
   gap: 3rem;
   padding-left: 30px;
   margin-top: 130px;
@@ -705,13 +706,13 @@ header {
 .contact-text h4 {
   margin: 15px 0;
   color: rgb(228, 228, 228);
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .contact-text p {
   color: rgb(177, 177, 177);
-  font-size: 20px;
+  font-size: 23px;
   line-height: 30px;
   margin-bottom: 2rem;
 }
@@ -728,7 +729,7 @@ header {
 .contact-list i {
   display: inline-block;
   color: #0ef;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   transition: all .40s ease;
 }
@@ -757,48 +758,8 @@ header {
   animation-delay: calc(.2s * var(--i));
 }
 
-.contact-form form {
-  position: relative;
-}
-.contact-form form input,form textarea {
-  border: none;
-  outline: none;
-  width: 90%;
-  padding: 18px;
-  background: #555557;
-  color: #000;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-}
 
-.contact-form textarea {
-  resize: none;
-  height: 220px;
-}
 
-.contact-form form .send {
-  display: inline-block;
-  padding: 14px 60px;
-  background: #0ef;
-  border-radius: 40px;
-  font-size: 18px;
-  color: #081b29;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideTop 1s ease forwards;
-  animation-delay: 2s;
-  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-}
-
-.contact-form form .send:hover {
-  background: #081b29;
-  color: #0ef;
-  box-shadow: 0 0 20px #0ef;
-}
 
 /* Last message */
 .last-text p {
@@ -1298,7 +1259,7 @@ header {
 /* =================================================================*/
 /* Contact Section */
 .contact {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 3rem;
@@ -1320,7 +1281,7 @@ header {
 .contact-text h4 {
   margin: 15px 0;
   color: rgb(228, 228, 228);
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -1343,7 +1304,7 @@ header {
 .contact-list i {
   display: inline-block;
   color: #0ef;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   transition: all .40s ease;
 }
@@ -1372,49 +1333,6 @@ header {
   animation-delay: calc(.2s * var(--i));
 }
 
-.contact-form form {
-  position: relative;
-}
-.contact-form form input,form textarea {
-  border: none;
-  outline: none;
-  width: 90%;
-  padding: 18px;
-  background: #555557;
-  color: #000;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-}
-
-.contact-form textarea {
-  resize: none;
-  height: 220px;
-}
-
-.contact-form form .send {
-  display: inline-block;
-  padding: 14px 60px;
-  background: #0ef;
-  border-radius: 40px;
-  font-size: 18px;
-  color: #081b29;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideTop 1s ease forwards;
-  animation-delay: 2s;
-  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-  margin-top: 20px;
-}
-
-.contact-form form .send:hover {
-  background: #081b29;
-  color: #0ef;
-  box-shadow: 0 0 20px #0ef;
-}
 
 /* Last message */
 .last-text p {
@@ -1965,7 +1883,7 @@ header {
 /* ================================================================= */
 /* Contact Section */
 .contact {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 3rem;
@@ -2037,50 +1955,6 @@ header {
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
-}
-
-.contact-form form {
-  position: relative;
-}
-.contact-form form input,form textarea {
-  border: none;
-  outline: none;
-  width: 90%;
-  padding: 18px;
-  background: #555557;
-  color: white;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-}
-
-.contact-form textarea {
-  resize: none;
-  height: 220px;
-}
-
-.contact-form form .send {
-  display: inline-block;
-  padding: 14px 60px;
-  background: #0ef;
-  border-radius: 40px;
-  font-size: 18px;
-  color: #081b29;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideTop 1s ease forwards;
-  animation-delay: 2s;
-  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-  margin-top: 20px;
-}
-
-.contact-form form .send:hover {
-  background: #081b29;
-  color: #0ef;
-  box-shadow: 0 0 20px #0ef;
 }
 
 /* Last message */
@@ -2626,7 +2500,7 @@ header {
 
   /* Contact Section */
   .contact {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
@@ -2698,50 +2572,6 @@ header {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-  }
-
-  .contact-form form {
-    position: relative;
-  }
-  .contact-form form input,form textarea {
-    border: none;
-    outline: none;
-    width: 90%;
-    padding: 18px;
-    background: #555557;
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
-  }
-
-  .contact-form textarea {
-    resize: none;
-    height: 220px;
-  }
-
-  .contact-form form .send {
-    display: inline-block;
-    padding: 14px 60px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 18px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-    margin-top: 20px;
-  }
-
-  .contact-form form .send:hover {
-    background: #081b29;
-    color: #0ef;
-    box-shadow: 0 0 20px #0ef;
   }
 
   /* Last message */
@@ -3364,50 +3194,6 @@ header {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-  }
-
-  .contact-form form {
-    position: relative;
-  }
-  .contact-form form input,form textarea {
-    border: none;
-    outline: none;
-    width: 90%;
-    padding: 15px;
-    background: #555557;
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
-  }
-
-  .contact-form textarea {
-    resize: none;
-    height: 200px;
-  }
-
-  .contact-form form .send {
-    display: inline-block;
-    padding: 14px 60px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 18px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-    margin-top: 20px;
-  }
-
-  .contact-form form .send:hover {
-    background: #081b29;
-    color: #0ef;
-    box-shadow: 0 0 20px #0ef;
   }
 
   /* Last message */
@@ -4047,50 +3833,6 @@ header {
     animation-delay: calc(.2s * var(--i));
   }
 
-  .contact-form form {
-    position: relative;
-  }
-  .contact-form form input,form textarea {
-    border: none;
-    outline: none;
-    width: 90%;
-    padding: 15px;
-    background: #555557;
-    color: white;
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
-  }
-
-  .contact-form textarea {
-    resize: none;
-    height: 200px;
-  }
-
-  .contact-form form .send {
-    display: inline-block;
-    padding: 14px 40px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 18px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
-    margin-top: 20px;
-  }
-
-  .contact-form form .send:hover {
-    background: #081b29;
-    color: #0ef;
-    box-shadow: 0 0 20px #0ef;
-  }
-
   /* Last message */
   .last-text p {
     width: 100%;
@@ -4101,4 +3843,77 @@ header {
     margin-top: 30px;
   }
 
+}
+
+@media only screen and (width: 390px) {
+  .navbar .checkbtn {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+
+  .navbar ul {
+    position: fixed;
+    width: 60%;
+    height: 40vh;
+    background-color: #2c3e50;
+    background-size: cover;
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all  .5s;
+    border-radius: 20px;
+    margin-left: -10px;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  .navbar ul li a {
+    font-size: 17px;
+  }
+
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+
+@media only screen and (width: 540px) {
+  .navbar .checkbtn {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+
+  .navbar ul {
+    position: fixed;
+    width: 60%;
+    height: 45vh;
+    background-color: #2c3e50;
+    background-size: cover;
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all  .5s;
+    border-radius: 20px;
+    margin-left: -10px;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  .navbar ul li a {
+    font-size: 17px;
+  }
+
+
+  #check:checked ~ ul {
+    left: 0;
+  }
 }
